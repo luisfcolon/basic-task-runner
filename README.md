@@ -6,7 +6,10 @@ Basic Gulp task runner I use for quick and dirty websites - udpated to work with
 
 ### Build
 
-Deletes css and js files generated during development, minifies, etc.
+Deletes css and js files generated during development.
+Minifies CSS.
+Babelfies JS.
+Stuff and things.
 
 ```
 gulp build
