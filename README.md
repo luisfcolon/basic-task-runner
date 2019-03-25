@@ -1,6 +1,17 @@
 # Basic Task Runner
 
-Basic Gulp task runner I use for quick and dirty websites - udpated to work with Gulp4.
+Basic Gulp task runner I use to code up quick and dirty websites - udpated to work with Gulp4.
+
+I use this directory structure as a generic base. It changes depending on the project I am working on.
+
+```
+assets/sass
+assets/js
+static/css
+static/js
+```
+
+Those are defined in Gulpfile.
 
 ## Commands
 
