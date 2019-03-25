@@ -11,7 +11,7 @@ static/css
 static/js
 ```
 
-Those are defined in Gulpfile.
+Those are defined in the Gulpfile.
 
 ## Commands
 
