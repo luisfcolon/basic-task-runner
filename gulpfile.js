@@ -1,14 +1,13 @@
 const { dest, parallel, series, src, watch } = require("gulp");
 const autoprefixer = require('autoprefixer');
 const babel = require('gulp-babel');
-const beeper = require('beeper');
 const cssnano = require('cssnano');
 const del = require('del');
 const log = require('fancy-log');
 const plumber = require('gulp-plumber');
 const postcss = require('gulp-postcss');
 const rename = require('gulp-rename');
-const uglifyjs = require('gulp-uglifyjs');
+const uglifyjs = require('gulp-uglify');
 const sass = require('gulp-sass');
 const sourcemaps = require('gulp-sourcemaps');
 
@@ -33,7 +32,6 @@ function deleteDevelopmentJs() {
 
 function errorHandler(error) {
   log.error(error.message);
-  beeper();
   this.emit('end');
 }
 
