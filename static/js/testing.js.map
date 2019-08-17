@@ -1,0 +1,1 @@
+{"version":3,"sources":["testing.js"],"names":["awesome","lulu"],"mappings":";;AAAA,SAASA,OAAT,GAAmB;AACjB,MAAMC,IAAI,GAAG,MAAb;AAEA,SAAOA,IAAP;AACD","sourcesContent":["function awesome() {\n  const lulu = 'LuLu';\n\n  return lulu;\n}\n"],"file":"testing.js"}
